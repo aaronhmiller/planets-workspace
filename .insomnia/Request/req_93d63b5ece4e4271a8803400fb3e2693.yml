@@ -1,9 +1,9 @@
 _id: req_93d63b5ece4e4271a8803400fb3e2693
 type: Request
 parentId: fld_wrk_36cfa3644627485db275affb4f6d04df249cec6c
-modified: 1619415820488
+modified: 1620756930595
 created: 1619415815392
-url: "{{ base_url }}/planets-mock/planets/3"
+url: "{{ base_url }}/planets-mock/planets/5"
 name: Mocked Single Planet Request
 description: ""
 method: GET
