@@ -1,5 +1,7 @@
 # API Spec workspace and Flask App for demoing APIOps
 
+<img width="1800" alt="It's OK Pluto" src="https://user-images.githubusercontent.com/223486/118372778-13e60500-b568-11eb-97f7-cd6c557da3d4.png">
+
 This application contains: one flask app in `app.py`. It serves up data about planets from [NASA data](https://solarsystem.nasa.gov/moons/in-depth/) at `/planets` and `/planets/<position>`. It's used in an end-to-end demonstration of Kong and should be imported into [Insomnia](https://insomnia.rest) for full-effect.
 
 It's based on work by the amazing [Lorna Jane Mitchell](https://github.com/lornajane) and its beauty is in its simplicity & clarity. It's a training ground for originating API ideas as a specification before implementation. It has been augmented with Kong and Insomnia to show how APIOps can be leveraged to make the API Lifecycle more efficient, clear, and reliable.
