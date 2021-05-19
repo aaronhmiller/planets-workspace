@@ -28,11 +28,3 @@ def one_planet(id):
 @app.route('/planets')
 def list_planets():
     return json.dumps(planets), 200, {'Content-Type': 'application/json'}
-
-
-@app.route('/webhook', methods=['GET','POST'])
-def webhook():
-    logging.info("Request received")
-    logging.info(request.args)
-    logging.info(request.form)
-    return "OK"
