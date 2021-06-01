@@ -1,3 +1,4 @@
+[![CI](https://github.com/aaronhmiller/planets-workspace/actions/workflows/main-tests.yaml/badge.svg)](https://github.com/aaronhmiller/planets-workspace/actions/workflows/main-tests.yaml)
 # API Spec workspace and Flask App for demoing APIOps
 
 <img width="1800" alt="It's OK Pluto" src="https://user-images.githubusercontent.com/223486/118372778-13e60500-b568-11eb-97f7-cd6c557da3d4.png">
