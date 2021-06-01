@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.DEBUG)
 planets = [
     {"name": "Mercury", "position": 1, "moons":0},
     {"name": "Venus", "position": 2, "moons":0},
-    {"name": "Earth", "position": 3, "moons":1},
+    {"name": "Earth2", "position": 3, "moons":1},
     {"name": "Mars", "position": 4, "moons":2},
     {"name": "Jupiter", "position": 5, "moons":79},
     {"name": "Saturn", "position": 6, "moons":62},
