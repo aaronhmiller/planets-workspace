@@ -29,7 +29,7 @@ jobs:
       run:
         FLASK_APP=app.py python -mflask run &
     - name: Test app
-      run:
+      run: | 
         PLANET=$(docker run host kongaaron/just-httpie :5000/planets/3 | docker run host kongaaron/just-jq -r .name)
         if [ $PLANET != 'Earth' ] ; then
           echo "The expected planet was not returned. $PLANET was returned instead."
